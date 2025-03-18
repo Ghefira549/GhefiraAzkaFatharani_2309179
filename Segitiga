@@ -1,0 +1,52 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package pkg2309179_ghefira_tugaspertemuan6;
+
+/**
+ *
+ * @author FARIZ
+ */
+public class Segitiga {
+    //atribut
+    double alas;
+    double tinggi;
+    double sisi;
+    
+    //konstruktor
+    Segitiga()
+    {
+        
+    }
+    
+    Segitiga(double alasBaru, double tinggiBaru, double sisiBaru )
+    {
+        alas=alasBaru;
+        tinggi=tinggiBaru;
+        sisi=sisiBaru;
+    }
+    
+      double getLuas(double alas, double tinggi){
+        return 0.5*alas*tinggi;
+    }
+      
+      double getKeliling(double sisi){
+        return 3*sisi;
+    }
+      
+  void setAlas(double alasBaru){
+        alas=alasBaru;
+    }
+  
+   void setTinggi(double tinggiBaru){
+        tinggi=tinggiBaru;
+    }
+   
+    void setSisi(double sisiBaru){
+        sisi=sisiBaru;
+    }
+      
+    
+    
+}
