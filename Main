@@ -1,0 +1,61 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package pkg2309179_ghefira_tugaspertemuan6;
+
+/**
+ *
+ * @author FARIZ
+ */
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        //1
+      Segitiga objSegitiga1=new Segitiga();
+      double Alas1 =  objSegitiga1.alas=1;
+       double Tinggi1 =  objSegitiga1.tinggi=1;
+        double Sisi1 =  objSegitiga1.sisi=1;
+        
+         System.out.println("Menghitung Segitiga dengan kelas dan objek : ");
+         System.out.println("Alas : "+Alas1);
+         System.out.println("Tinggi : "+Tinggi1);
+         System.out.println("Sisi : "+Sisi1);
+         
+        System.out.println("Luas Segitiga 1 : "+objSegitiga1.getLuas(Alas1, Tinggi1));
+         System.out.println("Keliling Segitiga 1 : "+objSegitiga1.getKeliling(Sisi1));
+         
+        //2
+        Segitiga objSegitiga2=new Segitiga(30, 10, 90);
+        System.out.println("Menghitung Segitiga dengan kelas dan objek : ");
+         System.out.println("Alas : "+objSegitiga2.alas);
+         System.out.println("Tinggi : "+objSegitiga2.tinggi);
+         System.out.println("Sisi : "+objSegitiga2.sisi);
+         System.out.println("Luas Segitiga 2 : "+objSegitiga2.getLuas(objSegitiga2.alas, objSegitiga2.tinggi));
+         System.out.println("Keliling Segitiga 2 : "+objSegitiga2.getKeliling(objSegitiga2.sisi));
+         
+         
+         //3
+         Segitiga objSegitiga3=new Segitiga();
+         objSegitiga3.setAlas(20);
+         objSegitiga3.setTinggi(30);
+         objSegitiga3.setSisi(60);
+          System.out.println("Menghitung Segitiga dengan kelas dan objek : ");
+         System.out.println("Alas : "+objSegitiga3.alas);
+         System.out.println("Tinggi : "+objSegitiga3.tinggi);
+         System.out.println("Sisi : "+objSegitiga3.sisi);
+         System.out.println("Luas Segitiga 3 : "+objSegitiga3.getLuas(objSegitiga3.alas, objSegitiga3.tinggi));
+         System.out.println("Keliling Segitiga 3 : "+objSegitiga3.getKeliling(objSegitiga3.sisi));
+         
+
+
+    }
+    
+}
+
+
+
+   
